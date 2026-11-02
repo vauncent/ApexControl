@@ -10,11 +10,12 @@ The interface supports English and German. No administrator rights or GG install
 
 ### Safety warning — model and firmware compatibility
 
-**Hardware testing has only been performed on a wired SteelSeries Apex Pro Mini, USB VID:PID `1038:161E`, running firmware `1.19.7`. No other firmware version or keyboard model has been verified with physical hardware.**
-
-ApexControl is experimental software that sends HID commands and writes onboard profiles. Commands verified on this keyboard may behave differently on another firmware version or model. Incorrect or interrupted writes could corrupt settings or leave the keyboard unusable and require recovery; the risk of bricking on untested combinations cannot be ruled out. This is a precaution about unverified compatibility, not a report of an observed brick.
-
-**ApexControl does not flash or update firmware.** Profile backups, readback checks and rollback attempts reduce some risks, but cannot guarantee recovery or make an untested combination safe. Firmware `1.19.7` is the tested version, not a guarantee that every connected device is automatically checked against that version before writes. Check your exact model and firmware before changing settings. Do not assume that successful device detection means configuration is supported. Configuration for other Apex models is currently disabled; do not bypass that restriction for normal use.
+> [!CAUTION]
+> **Hardware testing has only been performed on a wired SteelSeries Apex Pro Mini, USB VID:PID `1038:161E`, running firmware `1.19.7`. No other firmware version or keyboard model has been verified with physical hardware.**
+>
+> ApexControl is experimental software that sends HID commands and writes onboard profiles. Commands verified on this keyboard may behave differently on another firmware version or model. Incorrect or interrupted writes could corrupt settings or leave the keyboard unusable and require recovery; the risk of bricking on untested combinations cannot be ruled out. This is a precaution about unverified compatibility, not a report of an observed brick.
+>
+> **ApexControl does not flash or update firmware.** Profile backups, readback checks and rollback attempts reduce some risks, but cannot guarantee recovery or make an untested combination safe. Firmware `1.19.7` is the tested version, not a guarantee that every connected device is automatically checked against that version before writes. Check your exact model and firmware before changing settings. Do not assume that successful device detection means configuration is supported. Configuration for other Apex models is currently disabled; do not bypass that restriction for normal use.
 
 ### Supported hardware
 
