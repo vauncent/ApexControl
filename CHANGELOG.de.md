@@ -1,5 +1,11 @@
 # Änderungsübersicht
 
+## 0.1.1 — 2026-11-02
+
+- GitHub-Links auf vauncent/ApexControl aktualisiert.
+- vauncent im Update-Bereich angezeigt und den veralteten Hinweis zur geplanten Veröffentlichung entfernt.
+- README auf Englisch gekürzt und den KI-Spruch ergänzt.
+
 ## 02.11.2026 — Entwicklungsstand 0.1.0
 
 ### Neu

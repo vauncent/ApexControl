@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.1 — 2026-11-02
+
+- Updated GitHub links to vauncent/ApexControl.
+- Show vauncent in the Updates panel and remove the outdated pre-launch notice.
+- Simplified the README in English and added the AI disclaimer.
+
 ## 2026-11-02 — 0.1.0 development build
 
 ### Added

@@ -4,7 +4,7 @@ If you're allergic to AI, you should probably leave this repo right now — AI w
 
 Independent, open-source control app for the **wired SteelSeries Apex Pro Mini**. Early alpha for community testing; not affiliated with SteelSeries.
 
-**[Download Windows x64](https://github.com/vincentmittermaier-jpg/ApexControl/releases) · [Report a bug](https://github.com/vincentmittermaier-jpg/ApexControl/issues) · [Changelog](CHANGELOG.md)**
+**[Download Windows x64](https://github.com/vauncent/ApexControl/releases) · [Report a bug](https://github.com/vauncent/ApexControl/issues) · [Changelog](CHANGELOG.md)**
 
 The interface supports English and German. No administrator rights or GG installation are needed for normal use. Fully exit SteelSeries GG before changing keyboard settings to prevent conflicting changes.
 

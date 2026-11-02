@@ -11,7 +11,7 @@ const MUTED:Color32=Color32::from_rgb(142,151,168);
 const ORANGE:Color32=Color32::from_rgb(255,143,79);
 const GREEN:Color32=Color32::from_rgb(105,213,166);
 const BLUE:Color32=Color32::from_rgb(134,166,255);
-const RELEASES_URL:&str="https://github.com/vincentmittermaier-jpg/ApexControl/releases";
+const RELEASES_URL:&str="https://github.com/vauncent/ApexControl/releases";
 
 #[derive(Clone,Copy,PartialEq)] enum Tab {Actuation,Bindings,Macros,Rgb}
 struct BindingPicker {keys:Vec<u8>,bindings:Vec<[u8;5]>,category:KeyCategory,target:u8}
@@ -352,7 +352,7 @@ impl ApexApp {
         if !self.updates_open || !self.settings.setup_complete(){return;}
         egui::Window::new("Updates").id(egui::Id::new("app_updates")).open(&mut self.updates_open)
             .collapsible(false).resizable(true).default_width(650.0).show(ctx,|ui|{
-                ui.heading("ApexControl");ui.add_space(8.0);
+                ui.heading("ApexControl");small(ui,"vauncent");ui.add_space(8.0);
                 ui.horizontal(|ui|{ui.label(crate::i18n::text("Installierte Version"));pill(ui,env!("CARGO_PKG_VERSION"),BLUE);});
                 ui.add_space(10.0);
                 egui::ScrollArea::vertical().id_salt("local_changelog").max_height(420.0).show(ui,|ui|{
@@ -367,7 +367,6 @@ impl ApexApp {
                 ui.separator();
                 ui.add_space(12.0);
                 ui.label(crate::i18n::text("Neue Versionen und Änderungslisten findest du auf GitHub."));
-                ui.label(crate::i18n::text("Der Updatekanal wird mit der ersten öffentlichen Veröffentlichung eingerichtet."));
                 ui.add_space(12.0);
                 if ui.add(secondary(crate::i18n::text("Veröffentlichungen auf GitHub"))).clicked(){ctx.open_url(egui::OpenUrl::new_tab(RELEASES_URL));}
                 ui.add_space(8.0);
